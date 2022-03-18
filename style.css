@@ -5,8 +5,7 @@ body {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0;
-  top: 0;
+  padding: 64px 150px;
 }
 
 .navbar {
@@ -92,4 +91,44 @@ body {
 
 .icons ul li a {
   margin: 15px;
+}
+
+.img2 {
+  position: absolute;
+  width: 24.14px;
+  height: 12.07px;
+  left: 341.76px;
+  top: 546.69px;
+}
+
+.img3 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 214px;
+  top: 110px;
+}
+
+.img4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 237px;
+  top: 657.1px;
+}
+
+.img5 {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  left: 132.98px;
+  top: 155.81px;
+}
+
+.img6 {
+  position: absolute;
+  width: 26.46px;
+  height: 4.73px;
+  left: 127.18px;
+  top: 151.59px;
 }
