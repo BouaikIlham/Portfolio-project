@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 
 body {
   position: absolute;
@@ -64,4 +65,31 @@ body {
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
+}
+
+.h3 {
+  position: static;
+  width: 117px;
+  height: 24px;
+  left: 0;
+  top: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6c7bff;
+}
+
+.icons ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons ul li {
+  list-style: none;
+}
+
+.icons ul li a {
+  margin: 15px;
 }
