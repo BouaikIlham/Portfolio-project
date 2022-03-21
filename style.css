@@ -66,6 +66,16 @@ body {
   margin: 12px 0;
 }
 
+.headline-img {
+  display: -webkit-box;
+  display: flex;
+  margin-top: 12px;
+  padding-left: 0;
+  justify-content: flex-start;
+  gap: 20px;
+  list-style: none;
+}
+
 .h3 {
   position: static;
   width: 117px;
@@ -78,19 +88,6 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #6c7bff;
-}
-
-.icons ul {
-  display: flex;
-  flex-direction: row;
-}
-
-.icons ul li {
-  list-style: none;
-}
-
-.icons ul li a {
-  margin: 15px;
 }
 
 .img2 {
