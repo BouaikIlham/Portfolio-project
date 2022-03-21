@@ -49,6 +49,8 @@ h2 {
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
+  background-image: url(images/Ellipse4.svg);
+  background-repeat: no-repeat;
 }
 
 .para {
@@ -67,6 +69,8 @@ h2 {
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
+  background-image: url(images/Ellipse12.svg);
+  background-repeat: no-repeat;
 }
 
 .headline-img {
@@ -77,6 +81,8 @@ h2 {
   justify-content: flex-start;
   gap: 20px;
   list-style: none;
+  background-image: url(images/Ellipse8.svg);
+  background-repeat: no-repeat;
 }
 
 .h3 {
@@ -89,4 +95,6 @@ h2 {
   font-size: 15px;
   line-height: 24px;
   color: #6c7bff;
+  background-image: url(images/Ellipse5.svg);
+  background-repeat: no-repeat;
 }
