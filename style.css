@@ -181,3 +181,70 @@ body {
   padding: 10px;
   cursor: pointer;
 }
+
+.about-me {
+  width: 294px;
+}
+
+.Title {
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.paragraph {
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.titles {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.names {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.Languages-arrow-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  margin: 21px;
+}
+
+.Languges-icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.ellipse {
+  width: 48px;
+  height: 48px;
+  left: 12px;
+  top: calc(50% - 48px / 2 - 0.36px);
+}
