@@ -17,8 +17,8 @@
 
 To get a local copy up and running follow these simple example steps.
 1. Download the `Zip` or `git clone https://github.com/BouaikIlham/Portfolio-project.git`
-2. `cd Hello-Microverse`
-3. Then open in your browser by using `live server`
+2. `cd Portfolio-project`
+3. Then open in your browser by using `open with live server`
 
 ## Authors
 
