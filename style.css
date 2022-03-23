@@ -403,10 +403,6 @@ p {
   transition: ease color 2s;
 }
 
-.btn :hover {
-  background: #253858;
-}
-
 .about-me .resume-btn {
   margin-left: 2rem;
   text-decoration: none;
