@@ -51,7 +51,7 @@ body {
   padding-right: 24px;
 }
 
-.hero .container .premary-text h2 {
+.hero .container .premary-text {
   position: static;
   width: 600px;
   left: 24px;
@@ -62,14 +62,17 @@ body {
   font-size: 40px;
   line-height: 52px;
   display: flex;
-  color: #344563;
   order: 0;
   flex-grow: 0;
   margin: 12px 0;
   align-items: center;
 }
 
-.hero .secondary-section p {
+h2 {
+  color: #344563;
+}
+
+.hero .secondary-section {
   position: static;
   width: 327px;
   height: 146px;
@@ -80,11 +83,14 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;
   flex: none;
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
+}
+
+p {
+  color: #344563;
 }
 
 .hero .headline {
@@ -395,6 +401,10 @@ body {
   font-size: 17px;
   line-height: 24px;
   transition: ease color 2s;
+}
+
+.btn :hover {
+  background: #253858;
 }
 
 .about-me .resume-btn {
