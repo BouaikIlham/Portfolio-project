@@ -439,3 +439,101 @@ p {
   padding-top: 5rem;
   padding-bottom: 2rem;
 }
+
+.title-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-me {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.p2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #ebebff;
+}
+
+.form {
+  padding: 10px;
+  margin: 30px 10px;
+}
+
+#name {
+  height: 48px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  margin: 20px 0;
+  border: 1px solid #cfd8dc;
+  outline: none;
+}
+
+.text input {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding: 20px 20px;
+}
+
+.text textarea {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding: 20px 20px;
+}
+
+#mail {
+  height: 48px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  margin: 20px 0;
+  border: 1px solid #cfd8dc;
+  outline: none;
+}
+
+#msg {
+  height: 170px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  margin: 20px 0;
+  outline: none;
+}
+
+.butt {
+  width: 140px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.butt:hover {
+  color: #fff;
+  background-color: #8791eb;
+}
