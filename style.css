@@ -471,6 +471,9 @@ p {
 .form {
   padding: 10px;
   margin: 30px 10px;
+  background-image: url(images/Ellipse5.jpg);
+  background-repeat: no-repeat;
+  background-position: 248px 400px;
 }
 
 #name {
