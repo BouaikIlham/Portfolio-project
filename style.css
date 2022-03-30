@@ -438,6 +438,9 @@ p {
 }
 
 .title-p {
+  background-image: url(images/Ellipse\ 3.png);
+  background-repeat: no-repeat;
+  background-position: 328px 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -445,11 +448,15 @@ p {
 }
 
 .contact-me {
+  background-image: url(images/Ellipse.jpg);
+  background-repeat: no-repeat;
+  background-position: 83px 1px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 100px;
   color: #fff;
+  margin: 25px;
 }
 
 .p2 {
