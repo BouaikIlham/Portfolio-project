@@ -274,13 +274,13 @@
     <form  class="form" action="https://formspree.io/f/form_ids" method="post">
       <ul>
         <li class="text">
-          <input  type="text" id="name" name="user_name" placeholder="Write your name"/>
+          <input required type="text" id="name" name="user_name" maxlength="30" placeholder="Write your name"/>
         </li>
         <li class="text">
-          <input type="email" id="mail" name="user_email" placeholder="Write your email" />
+          <input required type="email" id="mail" name="user_email" placeholder="Write your email" />
         </li>
         <li class="text">
-          <textarea id="msg" name="user_message" placeholder="Write your message here"></textarea>
+          <textarea required id="msg" name="user_message" maxlength="500" placeholder="Write your message here"></textarea>
         </li>
       </ul>
       <input class="butt" type="submit" value="Get It Touch">

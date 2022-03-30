@@ -431,13 +431,10 @@ p {
 }
 
 .contact-form {
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  background-color: #6070ff;
-  border-top-left-radius: 5rem;
-  padding-top: 5rem;
-  padding-bottom: 2rem;
+  background-image: url(images/Contact\ me.jpg);
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 779px;
 }
 
 .title-p {
@@ -451,15 +448,16 @@ p {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
+  line-height: 100px;
   color: #fff;
 }
 
 .p2 {
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
-  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
   color: #ebebff;
 }
 
