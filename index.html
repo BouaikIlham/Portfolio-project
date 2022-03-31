@@ -12,19 +12,22 @@
 
 <body>
   <header class="navbar">
+    <div class="nav-logo">
+      <a class="logo" href="#">My logo</a>
+    </div>
     <nav class="container">
-      <a class="logo" href="#">My Logo</a>
-      <ul>
-        <li><a href="#"></a>Portoflio</li>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>Contact</li>
+      <div class="menu-wrapper">
+        <img class="mobile-menu" src="images/Union.jpg" alt="Union">
+      </div>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">Portfolio</a></li>
+        <li class="nav-item"><a href="#">about</a></li>
+        <li class="nav-item"><a href="#">contact</a></li>
       </ul>
     </nav>
   </header>
-  <section class="hero">
-    <div class="container">
-      <h2 class="primary-text">I’m Ilham <br> Glade to see you!</h2>
-    </div>
+  <section id="portfolio" class="hero">
+      <h2 class="primary-text">I’m Ilham Bouaik <br> Glade to see you!</h2>
     <p class="secondary-text">
       I’m a software developer! I can help you build a product ,
       feature or website Look through some of my work and experience!
@@ -41,13 +44,6 @@
       <li><a href="#"><img src="images/Vector.svg" alt="thumb" /></a></li>
     </ul>
   </section>
-
-
-
-
-
-
-  
   <section>
     <div class="cards-container">
       <ul class="cards-list flex-center-culomn">
@@ -57,8 +53,8 @@
             <h2>Tonic</h2>
             <div class="list">
               <span class="list-item item1">Canopy</span>
-              <span class="list-item">back end Dev</span>
-              <span class="list-item">2015</span>
+              <span class="list-item"><img src="images/Counter.jpg" alt="Counter">back end Dev</span>
+              <span class="list-item"><img src="images/Counter.jpg" alt="Counter">2015</span>
             </div>
           </div>
           <div class="text-container">
@@ -79,11 +75,11 @@
         <li class="card-item flex-center-culomn">
           <img class="card-image" src="images/SnapshootPortfolio.png" alt="Portfolio Portfolio">
           <div class="list-conatiner">
-            <h2>Multi-Post Stories</h2>
+            <h2>Multi-Post<br>Stories</h2>
             <div class="list">
               <span class="list-item item1">Canopy</span>
-              <span class="list-item">back end Dev</span>
-              <span class="list-item">2015</span>
+              <span class="list-item"><img src="images/Counter.jpg" alt="Counter">back end Dev</span></span>
+              <span class="list-item"><img src="images/Counter.jpg" alt="Counter">2015</span>
             </div>
           </div>
           <div class="text-container">
@@ -109,8 +105,8 @@
             <h2>Tonic</h2>
             <div class="list">
               <span class="list-item item1">Canopy</span>
-              <span class="list-item">back end Dev</span>
-              <span class="list-item">2015</span>
+              <span class="list-item"><img src="images/Counter.jpg" alt="Counter">back end Dev</span>
+              <span class="list-item"><img src="images/Counter.jpg" alt="Counter">2015</span>
             </div>
           </div>
           <div class="text-container">
@@ -131,11 +127,11 @@
         <li class="card-item flex-center-culomn">
           <img class="card-image" src="images/portfolio1.jpg" alt="Portfolio Portfolio">
           <div class="list-conatiner">
-            <h2>Multi-Post Stories</h2>
+            <h2>Multi-Post<br>Stories</h2>
             <div class="list">
               <span class="list-item item1">Canopy</span>
-              <span class="list-item">back end Dev</span>
-              <span class="list-item">2015</span>
+              <span class="list-item"><img src="images/Counter.jpg" alt="Counter">back end Dev</span>
+              <span class="list-item"><img src="images/Counter.jpg" alt="Counter">2015</span>
             </div>
           </div>
 
@@ -268,27 +264,25 @@
     </ul>
   </section>
 
-  <section class="contact-form">
-    <div class="title-p">
-      <h1 class="contact-me">Contact me</h1>
-      <p class=p2>If you have an application you are interested in developing,
-         a feature that you need built or a project that needs coding.
-         I’d love to help with it </p>
-    </div>
-    <form  class="form" action="https://formspree.io/f/xbjwakbe" method="post">
-      <ul>
-        <li class="text">
-          <input required type="text" id="name" name="user_name" maxlength="30" placeholder="Write your name"/>
-        </li>
-        <li class="text">
-          <input required type="email" id="mail" name="user_email" placeholder="Write your email" />
-        </li>
-        <li class="text">
-          <textarea required id="msg" name="user_message" maxlength="500" placeholder="Write your message here"></textarea>
-        </li>
-      </ul> 
-      <input class="butt" type="submit" value="Get It Touch">
+
+  
+  <footer id="contact" class="contact">
+    <div class="contact-contact-container">
+    <div class="container-contact">
+      <h2 class="first-text-contact"> Contact me</h2>
+      <p class="second-text-contact">If you have an application you are interested in developing, a feature that you need built or a
+          project that
+          needs coding. I’d love to help with it </p>
+    </div>  
+    <form class="container-form" action="https://formspree.io/f/xbjwakbe" method="post">
+      <input id="name" class="text-area" type="text" name="name" maxlength="30" required placeholder="name">
+      <input id="email" class="text-area" type="email" name="email"  required placeholder="email">
+      <textarea id="message" class="text-area-large" placeholder="Write your message" maxlength="500" required></textarea>
+      <button class="btn-container-contact" type="submit" name="submit">Get In Touch</button>
     </form>
-  </section>
+    </div>
+  </footer>
+  
 </body>
+
 </html>
