@@ -10,15 +10,17 @@
 }
 
 body {
-  background: #f7f7f9;
+  background-color: #fff;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  width: 1440px;
+  height: 916px;
+  left: 0;
+  top: 1px;
 }
 
 .navbar {
   background: #ffff;
-  padding-top: 14px;
-  padding-bottom: 14px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -31,7 +33,7 @@ body {
 .navbar .logo {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
@@ -42,13 +44,7 @@ body {
 }
 
 .hero {
-  background-image: url("../img/header-shapes-mobile.png"), url("../img/header-background-mobile.png");
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, 100% 100%;
-  padding-top: 114px;
-  padding-bottom: 114px;
-  padding-left: 24px;
-  padding-right: 24px;
+  background-color: #fff;
 }
 
 .hero .container .premary-text {
