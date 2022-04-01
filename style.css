@@ -242,7 +242,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px 20%;
+  margin: 30px 0%;
 }
 
 .flex-center-culomn {
@@ -269,7 +269,7 @@ h2 {
 }
 
 .card-image {
-  width: 544px;
+  max-width: 100%;
 }
 
 .img-container {
@@ -767,7 +767,7 @@ h2 {
     color: #ebebff;
     text-align: center;
     align-self: flex-start;
-    margin: 0 0 -60px 0;
+    margin: 0 0 30px 0;
   }
 
   .nav-logo {
