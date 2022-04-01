@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #e5e5e5;
+  background: white;
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
@@ -81,10 +81,10 @@ body {
 }
 
 h2 {
-  color: #344563;
+  color: #091e42;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
+  line-height: 56px;
 }
 
 .hero .secondary-text {
@@ -146,7 +146,7 @@ h2 {
   background-image: url("./images/contact\ form\ shapes-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #396df2;
+  background-color: #6070ff;
   border-radius: 100px 0 0 0;
   padding-top: 114px;
   padding-bottom: 114px;
@@ -172,7 +172,7 @@ h2 {
   color: #ebebff;
   text-align: center;
   align-self: flex-start;
-  margin: 20px 0;
+  margin: 18px 0;
 }
 
 .text-area {
@@ -182,12 +182,11 @@ h2 {
   background: #fff;
   background-color: rgb(255, 255, 255);
   background-color: #f8f8f8;
-  border-radius: 8px;
   resize: none;
   margin-bottom: 1px;
   width: 100%;
   align-self: flex-start;
-  padding-left: 5px;
+  padding-left: 20px;
   outline: none;
 }
 
@@ -200,7 +199,6 @@ h2 {
   background: #fff;
   background-color: rgb(255, 255, 255);
   background-color: #f8f8f8;
-  border-radius: 8px;
   resize: none;
   margin-bottom: 18px;
   align-self: flex-start;
@@ -218,7 +216,7 @@ h2 {
   font-size: 17px;
   cursor: pointer;
   padding: 8px;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .btn-container-contact:hover {
@@ -244,6 +242,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 30px 20%;
 }
 
 .flex-center-culomn {
@@ -270,7 +269,7 @@ h2 {
 }
 
 .card-image {
-  max-width: 100%;
+  width: 544px;
 }
 
 .img-container {
@@ -305,7 +304,7 @@ h2 {
   color: #344563;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 30px;
 }
 
 .see-btn {
@@ -337,10 +336,10 @@ h2 {
 .langage-item {
   background: #ebebff;
   border-radius: 8px;
-  padding: 2px 4px;
+  padding: 5px 10px;
   margin: 0 8px;
   font-size: 13px;
-  color: #396df2;
+  color: #6070ff;
   border-color: #396df2;
 }
 
@@ -560,7 +559,7 @@ h2 {
 }
 
 .cards-container {
-  background-color: #e5e5e5;
+  background-color: #f4f5f7;
 }
 
 .languages-list-container {
@@ -570,6 +569,10 @@ h2 {
 
 .contact-input {
   flex-direction: column;
+}
+
+.counter {
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -596,7 +599,7 @@ h2 {
   }
 
   .hero {
-    background-image: url("./images/Header-desk.png");
+    background-image: url("./images/161224517-0fcff1cf-019a-461a-a911-58eba705b813.svg");
     justify-content: flex-start;
     margin-bottom: -20px;
   }
@@ -663,6 +666,7 @@ h2 {
 
   .list {
     justify-content: unset;
+    padding: 10px;
   }
 
   .knowledge .kn_1 {
@@ -745,7 +749,7 @@ h2 {
   }
 
   .contact {
-    background-image: url("./images/Header-desk.png");
+    background-image: url("./images/161224517-0fcff1cf-019a-461a-a911-58eba705b813.svg");
     max-width: unset;
     text-align: center;
   }
@@ -757,12 +761,13 @@ h2 {
   .second-text-contact {
     font-family: Poppins, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
+    line-height: 28px;
     font-size: 20px;
     color: #ebebff;
     text-align: center;
     align-self: flex-start;
-    margin: 0 0 30px 0;
+    margin: 0 0 -60px 0;
   }
 
   .nav-logo {
@@ -776,8 +781,8 @@ h2 {
   }
 
   .list-item {
-    margin-left: 0;
-    margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
   }
 
   .container-form {
