@@ -144,6 +144,7 @@ h2 {
 
 .contact {
   background-image: url("./images/contact\ form\ shapes-mobile.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #396df2;
   border-radius: 100px 0 0 0;
@@ -744,7 +745,7 @@ h2 {
   }
 
   .contact {
-    background-image: url("./img/Header-desk.png");
+    background-image: url("./images/Header-desk.png");
     max-width: unset;
     text-align: center;
   }
