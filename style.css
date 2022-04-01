@@ -42,6 +42,10 @@ body {
   color: #6070ff;
 }
 
+.navbar .logo:hover {
+  transform: rotate(45deg);
+}
+
 .cl-btn {
   padding-left: 2rem;
 }
