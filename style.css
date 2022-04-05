@@ -39,7 +39,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070ff;
+  color: #495bff;
 }
 
 .navbar .logo:hover {
@@ -230,7 +230,7 @@ h2 {
   text-align: left;
   border-radius: 8px;
   border: none;
-  color: #6070ff;
+  color: #1c32f5;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -241,7 +241,7 @@ h2 {
 }
 
 .btn-container-contact:hover {
-  background-color: #6070ff;
+  background-color: #132bfc;
   color: #fff;
 }
 
@@ -341,7 +341,7 @@ h2 {
 }
 
 .btn .resume-btn:hover {
-  background-color: #6070ff;
+  background-color: #396df2;
   color: #fff;
 }
 
@@ -434,7 +434,7 @@ h2 {
 }
 
 .about-me .connect {
-  color: #7f8cff;
+  color: #384af0;
   font-weight: 500;
   padding: 1rem 2.5rem;
   margin-bottom: 2rem;
@@ -570,7 +570,7 @@ h2 {
 }
 
 .btn:hover {
-  background-color: #6070ff;
+  background-color: #1129fc;
   color: #fff;
 }
 
