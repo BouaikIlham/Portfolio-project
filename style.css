@@ -77,11 +77,28 @@ body {
   font-size: 40px;
   line-height: 52px;
   display: flex;
-  color: #172b4d;
   order: 0;
   flex-grow: 0;
   margin: 12px 0;
   align-items: center;
+}
+
+#animation {
+  animation: typing 8s steps(18, end) forwards;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  33% {
+    width: 100%;
+  }
+
+  100% {
+    width: 100%;
+  }
 }
 
 h2 {
