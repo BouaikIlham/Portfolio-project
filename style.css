@@ -241,7 +241,7 @@ h2 {
 }
 
 .btn-container-contact:hover {
-  background-color: #132bfc;
+  background-color: #1828b9;
   color: #fff;
 }
 
@@ -331,7 +331,7 @@ h2 {
 
 .see-btn {
   font-size: 18px;
-  color: #396df2;
+  color: #0531a1;
   padding: 12px;
   background-color: transparent;
   margin-top: 2rem;
@@ -341,12 +341,12 @@ h2 {
 }
 
 .btn .resume-btn:hover {
-  background-color: #396df2;
+  background-color: #0631a0;
   color: #fff;
 }
 
 .see-btn:hover {
-  background-color: #6070ff;
+  background-color: #041cf3;
   color: #fff;
 }
 
