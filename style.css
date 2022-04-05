@@ -241,7 +241,7 @@ h2 {
 }
 
 .btn-container-contact:hover {
-  background-color: #1828b9;
+  background-color: #1c32f5;
   color: #fff;
 }
 
@@ -558,9 +558,9 @@ h2 {
 .btn {
   display: inline-block;
   padding: 1rem;
-  border: 1px solid #6070ff;
+  border: 1px solid #0b23fa;
   border-radius: 1rem;
-  color: #396df2;
+  color: #0b23fa;
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: 500;
