@@ -242,7 +242,7 @@ h2 {
 
 .btn-container-contact:hover {
   background-color: #1c32f5;
-  color: #fff;
+  color: white;
 }
 
 .erro {
@@ -342,12 +342,12 @@ h2 {
 
 .btn .resume-btn:hover {
   background-color: #0631a0;
-  color: #fff;
+  color: white;
 }
 
 .see-btn:hover {
-  background-color: #041cf3;
-  color: #fff;
+  background-color: #011444;
+  color: white;
 }
 
 .lang-container {
