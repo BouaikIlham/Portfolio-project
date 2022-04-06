@@ -39,7 +39,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070ff;
+  color: #495bff;
 }
 
 .navbar .logo:hover {
@@ -77,11 +77,28 @@ body {
   font-size: 40px;
   line-height: 52px;
   display: flex;
-  color: #172b4d;
   order: 0;
   flex-grow: 0;
   margin: 12px 0;
   align-items: center;
+}
+
+#animation {
+  animation: typing 8s steps(18, end) forwards;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  33% {
+    width: 100%;
+  }
+
+  100% {
+    width: 100%;
+  }
 }
 
 h2 {
@@ -213,7 +230,7 @@ h2 {
   text-align: left;
   border-radius: 8px;
   border: none;
-  color: #6070ff;
+  color: #1c32f5;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -224,8 +241,8 @@ h2 {
 }
 
 .btn-container-contact:hover {
-  background-color: #6070ff;
-  color: #fff;
+  background-color: #1c32f5;
+  color: white;
 }
 
 .erro {
@@ -314,7 +331,7 @@ h2 {
 
 .see-btn {
   font-size: 18px;
-  color: #396df2;
+  color: #0531a1;
   padding: 12px;
   background-color: transparent;
   margin-top: 2rem;
@@ -324,13 +341,13 @@ h2 {
 }
 
 .btn .resume-btn:hover {
-  background-color: #6070ff;
-  color: #fff;
+  background-color: #0631a0;
+  color: white;
 }
 
 .see-btn:hover {
-  background-color: #6070ff;
-  color: #fff;
+  background-color: #011444;
+  color: white;
 }
 
 .lang-container {
@@ -417,7 +434,7 @@ h2 {
 }
 
 .about-me .connect {
-  color: #7f8cff;
+  color: #384af0;
   font-weight: 500;
   padding: 1rem 2.5rem;
   margin-bottom: 2rem;
@@ -541,9 +558,9 @@ h2 {
 .btn {
   display: inline-block;
   padding: 1rem;
-  border: 1px solid #6070ff;
+  border: 1px solid #0b23fa;
   border-radius: 1rem;
-  color: #396df2;
+  color: #0b23fa;
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: 500;
@@ -553,7 +570,7 @@ h2 {
 }
 
 .btn:hover {
-  background-color: #6070ff;
+  background-color: #1129fc;
   color: #fff;
 }
 
