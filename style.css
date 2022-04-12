@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap");
 
 * {
   padding: 0;
@@ -93,11 +93,8 @@ body {
 }
 
 .nav-list-menu.open .nav-list .nav-item a {
-  font-family: "Poppins", sans-serif;
-  color: #fff;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 44px;
+
+
 }
 
 .navbar .logo {
