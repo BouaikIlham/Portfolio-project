@@ -93,11 +93,15 @@ body {
 }
 
 .nav-list-menu.open .nav-list .nav-item a {
-  display: none;
+  display: block;
   color: #fff;
   margin-right: 35px;
   margin-top: 5px;
   cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 .navbar .logo {
