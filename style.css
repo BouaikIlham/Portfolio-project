@@ -72,7 +72,7 @@ body {
   display: none;
   color: #fff;
   margin-right: 35px;
-  margin-top: 5px;
+  margin-top: 20px;
   cursor: pointer;
 }
 
@@ -83,13 +83,25 @@ body {
 .nav-list-menu.open .nav-list {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 40px;
   margin-top: 40px;
+  margin-top: 80px;
+}
+
+.nav-item {
+  margin-top: 20px;
 }
 
 .nav-list-menu.open .nav-list .nav-item a {
-  color: #e5e5e5;
-  font-size: 28px;
+  display: block;
+  color: #fff;
+  margin-right: 35px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 .navbar .logo {
