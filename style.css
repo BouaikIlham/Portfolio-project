@@ -93,8 +93,11 @@ body {
 }
 
 .nav-list-menu.open .nav-list .nav-item a {
-
-
+  display: none;
+  color: #fff;
+  margin-right: 35px;
+  margin-top: 5px;
+  cursor: pointer;
 }
 
 .navbar .logo {
