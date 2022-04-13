@@ -56,7 +56,7 @@
 .card-popup-window .main-container .title h2 {
   font-size: 28px;
   font-weight: 700;
-  color: #172b4d;
+  color: #091e42;
 }
 
 .card-popup-window .main-container .info {
@@ -70,7 +70,7 @@
 }
 
 .card-popup-window .main-container .info span:first-child {
-  color: #000;
+  color: #091e42;
   font-weight: 600;
 }
 

@@ -11,9 +11,9 @@ data.forEach((card) => {
       <h2>${card.name}</h2>
        <div class="list">
         <span class="list-item item1">Canopy</span>
-        <img class= "list-item-btn"src="img/botton.png" alt="bnt">
+        <img class= "list-item-btn"src="images/Counter.jpg" alt="bnt">
         <span class="list-item">back end Dev</span>
-        <img class= "list-item-btn"src="img/botton.png" alt="bnt">
+        <img class= "list-item-btn"src="images/Counter.jpg" alt="bnt">
         <span class="list-item">2015</span>
        </div>
     </div>
@@ -43,9 +43,7 @@ const closedWind = document.querySelector('#close-pop');
 
 const arr = [seeProjectBtn, seeProjectImg];
 arr.forEach((item) => {
-  console.log('Hi');
   item.forEach((link) => {
-    console.log('Ha');
     link.addEventListener('click', (e) => {
       e.preventDefault();
       cardPopupWindow.classList.add('open-pop-up');
