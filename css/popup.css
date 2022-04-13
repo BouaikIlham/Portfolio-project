@@ -6,7 +6,7 @@
   bottom: 0;
   background-color: rgba(169, 173, 175, 0.9);
   z-index: 999;
-  display: block;
+  display: none;
   overflow-y: auto;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .card-popup-window .main-container .info span:first-child {
-  color: #344563;
+  color: #000;
   font-weight: 600;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .card-popup-window .main-container .languages li {
-  display: block;
+  display: none;
 }
 
 .card-popup-window .main-container .languages li:nth-child(1),
@@ -126,7 +126,7 @@
   display: block;
 }
 
-.card-popup-window .main-container .languages li a{
+.card-popup-window .main-container .languages li a {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -171,4 +171,104 @@
 .card-popup-window .close .fa {
   font-size: 22px;
   color: #67798e;
+}
+
+@media screen and (min-width: 500px) {
+  .card-popup-window .main-container .links .btn {
+    padding: 1.3rem 4rem;
+    margin-bottom: 2rem;
+    font-size: 10px;
+  }
+
+  .main-container .links .btn span:nth-child(1) {
+    margin-right: 2rem;
+  }
+
+  .card-popup-window .main-container .card-image img {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .card-popup-window .main-container .languages {
+    flex-wrap: wrap;
+  }
+
+  .card-popup-window .main-container .card-image img {
+    max-width: 90%;
+  }
+
+  .card-popup-window .main-container .links .btn {
+    padding: 1rem 1.4rem;
+  }
+
+  .card-popup-window .main-container .languages li {
+    padding: 0.12rem 0.75rem;
+    background-color: #ebebff;
+    border-radius: 8px;
+    margin: 0.4rem;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-popup-window .main-container .card-image img {
+    max-width: 90%;
+  }
+
+  .card-popup-window .main-container .links {
+    justify-content: flex-start;
+  }
+
+  .card-popup-window .main-container .links .btn:first-child {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card-popup-window .main-container {
+    max-width: 800px;
+  }
+
+  .card-popup-window .main-container .title h2 {
+    font-size: 36px;
+  }
+
+  .card-popup-window .main-container .card-image img {
+    max-width: 100%;
+  }
+
+  .card-popup-window .left-container {
+    flex-direction: row;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .card-popup-window .detail {
+    margin-bottom: 2rem;
+    width: 55%;
+  }
+
+  .card-popup-window .about-links {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .card-popup-window .about-links .links {
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+
+  .links .btn {
+    margin: 0;
+    padding: 0;
+    font-size: 5px;
+    height: 30px;
+    white-space: nowrap;
+    width: 50%;
+  }
 }
