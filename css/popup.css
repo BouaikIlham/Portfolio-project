@@ -110,6 +110,7 @@
 .card-popup-window .main-container .languages {
   display: flex;
   margin-top: 5px;
+  margin-left: -25px;
 }
 
 .card-popup-window .main-container .languages li {
