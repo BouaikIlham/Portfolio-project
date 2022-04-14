@@ -90,3 +90,4 @@ arr.forEach((item) => {
 closedWind.addEventListener('click', () => {
   cardPopupWindow.classList.remove('open-pop-up');
 });
+
