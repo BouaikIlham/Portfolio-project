@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap");
 
 * {
   padding: 0;
@@ -40,16 +40,6 @@ body {
   padding: 10px;
 }
 
-.knowledge .languages li a {
-  color: #253858;
-  font-size: 15px;
-}
-
-.knowledge .frameworks li a {
-  color: #253858;
-  font-size: 15px;
-}
-
 .nav-list {
   display: none;
   font-family: "Poppins", sans-serif;
@@ -89,7 +79,7 @@ body {
 
 .nav-list-menu.open .nav-list .nav-item a {
   color: #e5e5e5;
-  font-size: 26px;
+  font-size: 32px;
 }
 
 .navbar .logo {
@@ -102,7 +92,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #495bff;
+  color: #6070ff;
 }
 
 .navbar .logo:hover {
@@ -125,7 +115,7 @@ body {
   height: 100vh;
 }
 
-.hero .container .premary-text {
+.hero .premary-text {
   position: static;
   width: 600px;
   left: 24px;
@@ -136,6 +126,7 @@ body {
   font-size: 40px;
   line-height: 52px;
   display: flex;
+  color: #172b4d;
   order: 0;
   flex-grow: 0;
   margin: 12px 0;
@@ -205,7 +196,7 @@ h2 {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 5px;
+  margin: 0;
 }
 
 .hero ul {
@@ -223,9 +214,9 @@ h2 {
 }
 
 .contact {
-  background-image: url("./images/contact\ form\ shapes-mobile.png");
-  background-size: cover;
+  background-image: url("./images/shapes.png");
   background-repeat: no-repeat;
+  background-size: cover;
   background-color: #6070ff;
   border-radius: 100px 0 0 0;
   padding-top: 114px;
@@ -262,6 +253,7 @@ h2 {
   background: #fff;
   background-color: rgb(255, 255, 255);
   background-color: #f8f8f8;
+  border-radius: 8px;
   resize: none;
   margin-bottom: 1px;
   width: 100%;
@@ -279,6 +271,7 @@ h2 {
   background: #fff;
   background-color: rgb(255, 255, 255);
   background-color: #f8f8f8;
+  border-radius: 8px;
   resize: none;
   margin-bottom: 18px;
   align-self: flex-start;
@@ -304,17 +297,6 @@ h2 {
   color: white;
 }
 
-.erro {
-  width: 100%;
-  text-align: center;
-  align-content: center;
-  font-size: 80%;
-  color: white;
-  background-color: rgb(247, 70, 70);
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
 .container-form {
   display: flex;
   row-gap: 18px;
@@ -322,7 +304,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px 0%;
 }
 
 .flex-center-culomn {
@@ -354,10 +335,9 @@ h2 {
 
 .img-container {
   width: 100%;
-  padding-right: 20px;
 }
 
-.list-conatiner {
+.list-container {
   width: 100%;
 }
 
@@ -381,13 +361,6 @@ h2 {
   color: #344563;
 }
 
-.text-container {
-  color: #344563;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-}
-
 .see-btn {
   font-size: 18px;
   color: #0531a1;
@@ -397,6 +370,7 @@ h2 {
   border: 1px solid #396df2;
   border-radius: 6px;
   cursor: pointer;
+  transition: ease color 2s;
 }
 
 .btn .resume-btn:hover {
@@ -412,13 +386,14 @@ h2 {
 .lang-container {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .langage-item {
   background: #ebebff;
   border-radius: 8px;
-  padding: 5px 10px;
-  margin: 0 8px;
+  padding: 2px 4px;
+  margin: 5px 8px;
   font-size: 13px;
   color: #6070ff;
   border-color: #396df2;
@@ -493,7 +468,7 @@ h2 {
 }
 
 .about-me .connect {
-  color: #384af0;
+  color: #7f8cff;
   font-weight: 500;
   padding: 1rem 2.5rem;
   margin-bottom: 2rem;
@@ -524,7 +499,7 @@ h2 {
   font-weight: 400;
   position: relative;
   padding: 10px 0;
-  color: #344563;
+  color: #000;
 }
 
 .knowledges .knowledge .kn_1 span i {
@@ -598,6 +573,7 @@ h2 {
   align-items: center;
   padding-left: 2rem;
   margin-top: 2.4rem;
+  padding-bottom: 1rem;
 }
 
 .social-media svg {
@@ -607,9 +583,9 @@ h2 {
 .btn {
   display: inline-block;
   padding: 1rem;
-  border: 1px solid #0b23fa;
+  border: 1px solid #6070ff;
   border-radius: 1rem;
-  color: #0b23fa;
+  color: #396df2;
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: 500;
@@ -619,7 +595,7 @@ h2 {
 }
 
 .btn:hover {
-  background-color: #1129fc;
+  background-color: #6070ff;
   color: #fff;
 }
 
@@ -630,7 +606,7 @@ h2 {
 }
 
 .cards-container {
-  background-color: #f4f5f7;
+  background-color: #e5e5e5ee;
 }
 
 .languages-list-container {
@@ -640,10 +616,6 @@ h2 {
 
 .contact-input {
   flex-direction: column;
-}
-
-.counter {
-  margin-right: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -659,6 +631,7 @@ h2 {
     padding: 0 50px;
     display: flex;
     align-content: space-between;
+    font-family: "Poppins", sans-serif;
   }
 
   .nav-item {
@@ -737,7 +710,6 @@ h2 {
 
   .list {
     justify-content: unset;
-    padding: 10px;
   }
 
   .knowledge .kn_1 {
@@ -799,7 +771,7 @@ h2 {
     padding-top: 5rem;
   }
 
-  .about-me .left-content {
+  .about-me .left-container {
     width: 42%;
   }
 
@@ -832,8 +804,7 @@ h2 {
   .second-text-contact {
     font-family: Poppins, sans-serif;
     font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
+    font-weight: normal;
     font-size: 20px;
     color: #ebebff;
     text-align: center;
@@ -852,8 +823,12 @@ h2 {
   }
 
   .list-item {
-    margin-left: 10px;
-    margin-right: 20px;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .list-item-btn {
+    margin-left: 5px;
   }
 
   .container-form {
