@@ -122,11 +122,12 @@ form.addEventListener('submit', (element) => {
   }
   outputMessage(true);
   const data = { email: email.value, name: name.value, message: message.value };
-  localStorage.setItem("dataform", JSON.stringify(data))});
-const showData = JSON.parse(localStorage.getItem("dataform"))
+  localStorage.setItem('dataform', JSON.stringify(data))
+});
+const showData = JSON.parse(localStorage.getItem('dataform'));
 
 if (showData) {
   email.value = showData.email;
   name.value = showData.name;
   message.value = showData.message;
-};
+}
