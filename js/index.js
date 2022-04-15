@@ -25,8 +25,8 @@ data.forEach((card) => {
     <div class="languages-list-container">
       <ul class="lang-container">
         ${(function technoUsed() {
-    return card.technologies.map((technology) => `<li class="langage-item"><span>${technology}</span></li>`).join('');
-  }())}
+      return card.technologies.map((technology) => `<li class="langage-item"><span>${technology}</span></li>`).join('');
+    }())}
       </ul>
     </div>
     <button type="button" data-index-number=${card.id} class="see-btn">See Project</button>
@@ -104,8 +104,8 @@ function outputMessage(accepted) {
 const form = document.querySelector('.container-form');
 
 const email = document.getElementById('email');
-const name = document.getElementById('name')
-const message = document.getElementById('message')
+const name = document.getElementById('name');
+const message = document.getElementById('message');
 
 form.addEventListener('submit', (element) => {
   const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -121,15 +121,12 @@ form.addEventListener('submit', (element) => {
     return;
   }
   outputMessage(true);
-  const data = {email: email.value, name: name.value, message: message.value}
-  localStorage.setItem("dataform", JSON.stringify(data))
-});
-/////////////////////////////////////////
-
+  const data = { email: email.value, name: name.value, message: message.value };
+  localStorage.setItem("dataform", JSON.stringify(data))});
 const showData = JSON.parse(localStorage.getItem("dataform"))
 
 if (showData) {
-  email.value  = showData.email 
-  name.value  = showData.name 
-  message.value  = showData.message 
-}
+  email.value = showData.email;
+  name.value = showData.name;
+  message.value = showData.message;
+};
