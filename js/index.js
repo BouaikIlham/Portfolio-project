@@ -25,8 +25,8 @@ data.forEach((card) => {
     <div class="languages-list-container">
       <ul class="lang-container">
         ${(function technoUsed() {
-  return card.technologies.map((technology) => `<li class="langage-item"><span>${technology}</span></li>`).join('');
-      }())}
+    return card.technologies.map((technology) => `<li class="langage-item"><span>${technology}</span></li>`).join('');
+  }())}
       </ul>
     </div>
     <button type="button" data-index-number=${card.id} class="see-btn">See Project</button>
