@@ -103,19 +103,33 @@ function outputMessage(accepted) {
 
 const form = document.querySelector('.container-form');
 
+const email = document.getElementById('email');
+const name = document.getElementById('name')
+const message = document.getElementById('message')
+
 form.addEventListener('submit', (element) => {
-  const email = document.getElementById('email').value;
   const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-  if (email !== email.toLowerCase()) {
+  if (email.value !== email.value.toLowerCase()) {
     element.preventDefault();
     outputMessage(false);
     return;
   }
-  if (!emailRegex.test(email)) {
+  if (!emailRegex.test(email.value)) {
     element.preventDefault();
     outputMessage(false);
     return;
   }
   outputMessage(true);
+  const data = {email: email.value, name: name.value, message: message.value}
+  localStorage.setItem("dataform", JSON.stringify(data))
 });
+/////////////////////////////////////////
+
+const showData = JSON.parse(localStorage.getItem("dataform"))
+
+if (showData) {
+  email.value  = showData.email 
+  name.value  = showData.name 
+  message.value  = showData.message 
+}
