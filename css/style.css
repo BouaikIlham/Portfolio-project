@@ -38,7 +38,9 @@ body {
   padding-right: 24px;
   display: flex;
   place-content: space-between;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
 .menu-wrapper {
@@ -119,7 +121,7 @@ body {
 }
 
 .hero {
-  background-image: url("./images/Header-desk.png");
+  background-image: url("../images/Header.png");
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
   background-color: white;
@@ -229,7 +231,7 @@ h2 {
 }
 
 .contact {
-  background-image: url("./images/shapes.png");
+  background-image: url("../images/shapes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #6070ff;
@@ -658,7 +660,6 @@ h2 {
   }
 
   .hero {
-    background-image: url("./images/161224517-0fcff1cf-019a-461a-a911-58eba705b813.svg");
     justify-content: flex-start;
     margin-bottom: -20px;
   }
@@ -807,7 +808,6 @@ h2 {
   }
 
   .contact {
-    background-image: url("./images/161224517-0fcff1cf-019a-461a-a911-58eba705b813.svg");
     max-width: unset;
     text-align: center;
   }
