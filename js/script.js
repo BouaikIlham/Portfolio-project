@@ -16,9 +16,10 @@ function menuToggle() {
     navListMenu.style.display = 'block';
   }
 }
-
-menuButtonOpen.addEventListener('click', menuToggle);
-menuButtonClose.addEventListener('click', menuToggle);
-navItems.forEach((navItem) => {
-  navItem.addEventListener('click', menuToggle);
-});
+if (window.screen.width <= 767) {
+  menuButtonOpen.addEventListener('click', menuToggle);
+  menuButtonClose.addEventListener('click', menuToggle);
+  navItems.forEach((navItem) => {
+    navItem.addEventListener('click', menuToggle);
+  });
+}
