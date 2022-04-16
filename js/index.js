@@ -121,13 +121,20 @@ form.addEventListener('submit', (element) => {
     return;
   }
   outputMessage(true);
+
+});
+
+window.onload = () => {
+  const showData = JSON.parse(localStorage.getItem('dataform'));
+
+  if (showData) {
+    email.value = showData.email;
+    name.value = showData.name;
+    message.value = showData.message;
+  }
+}
+
+form.addEventListener('input', () => {
   const data = { email: email.value, name: name.value, message: message.value };
   localStorage.setItem('dataform', JSON.stringify(data));
-});
-const showData = JSON.parse(localStorage.getItem('dataform'));
-
-if (showData) {
-  email.value = showData.email;
-  name.value = showData.name;
-  message.value = showData.message;
-}
+})
