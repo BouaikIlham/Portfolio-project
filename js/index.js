@@ -121,7 +121,6 @@ form.addEventListener('submit', (element) => {
     return;
   }
   outputMessage(true);
-
 });
 
 window.onload = () => {
@@ -132,9 +131,9 @@ window.onload = () => {
     name.value = showData.name;
     message.value = showData.message;
   }
-}
+};
 
 form.addEventListener('input', () => {
   const data = { email: email.value, name: name.value, message: message.value };
   localStorage.setItem('dataform', JSON.stringify(data));
-})
+});
