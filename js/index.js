@@ -10,11 +10,11 @@ data.forEach((card) => {
     <div class="list-container">
       <h2>${card.name}</h2>
        <div class="list">
-        <span class="list-item item1">Canopy</span>
+        <span class="list-item item1">${card.description.type}</span>
         <img class= "list-item-btn"src="images/Counter.jpg" alt="bnt">
-        <span class="list-item">back end Dev</span>
+        <span class="list-item">${card.description.interface}</span>
         <img class= "list-item-btn"src="images/Counter.jpg" alt="bnt">
-        <span class="list-item">2015</span>
+        <span class="list-item">${card.description.year}</span>
        </div>
     </div>
     <div class="text-container">
