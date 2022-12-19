@@ -5,7 +5,7 @@
 # Portofolio
 
 ## Live 
-[Live version](https://bouaikilham.github.io/Portfolio-project/)
+[Live version](https://heroic-pasca-bde1fd.netlify.app/)
 
 ## Description
 
